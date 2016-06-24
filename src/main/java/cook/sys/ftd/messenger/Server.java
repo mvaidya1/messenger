@@ -24,7 +24,7 @@ public class Server extends JFrame{
 	private Socket connection;
 	
 	public Server(){
-		super("MV and Cedrics Chat Server"); // creates constructor
+		super("MV and Cedric's Chat Server"); // creates constructor
 		userText = new JTextField();
 		userText.setEditable(false);
 		userText.addActionListener( 
